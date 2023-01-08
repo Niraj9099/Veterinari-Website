@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark" id="top_nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Doggy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search" id="searchform">
+            <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search" id="serchbox">
+            <button class="btn btn-outline-success" type="submit" id="serchbtn"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      
+      <!-- banner  -->
+      <div class="row justify-content-center" id="banner">
+        <div class="col-md-6 col-11" id="bannertext">
+          <h1>First i wanted to be <br> a veterinarian</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam possimus itaque, excepturi dignissimos facere ad velit quae soluta ipsum amet!</p>
+          <button type="button" id="bannet-btn-1">Contact Us</button>
+          <button type="button" id="bannet-btn-2">Our Service</button>
+        </div>
+        <div class="col-md-4 d-none d-md-block" id="bannerimg">
+          <img src="./img/dog-1.png" alt="" class="img-fluid">
+        </div>
+      </div>
+
+
+      <!-- service text  -->
+      <div class="row justify-content-center" id="service">
+        <div class="col-md-5 col-11" id="service-text">
+          <h3>As a veterinarian and <br> lover of animals.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ab adipisci obcaecati ad corrupti minima nobis, rem veritatis in porro.</p>
+          <button type="button" class="btn" id="service-btn">Our Services</button>
+        </div>
+        <div class="col-md-3 d-none d-md-block" id="service-img">
+          <img src="./img/dogdoctorfirst.jfif" alt="" class="img-fluid">
+        </div>
+      </div>
+
+      <!-- countar section  -->
+      <div class="row justify-content-center"  id="countar-section">
+        <div class="col-sm-3 text-center text-white mt-3 mb-2">
+          <i class="bi bi-clipboard-plus-fill  icon"></i>
+          <h4>+30780 <br> Happy Clint</h4>
+        </div>
+        <div class="col-sm-3 text-center  text-white  mt-3 mb-2">
+          <i class="bi bi-clipboard2-data icon"></i>
+          <h4>+45350 <br> Department</h4>
+        </div>
+        <div class="col-sm-3 text-center  text-white  mt-3 mb-2">
+          <i class="bi bi-eyedropper icon"></i>
+          <h4>+80544 <br> Vaccination</h4>
+        </div>
+      </div>
+      
+
+      <!-- resent post  -->
+      <div class="row justify-content-center mt-3 mb-3">
+        <div class="col-12 text-center mt-5 mb-3">
+          <h1 class="blog-tital">Recent Post</h1>
+          <p class="blog-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Atque provident nulla voluptatem necessitatibus asperiores, odio aspernatur placeat est! Eos, nihil.</p>
+        </div>
+
+        <div class="col-md-3 col-sm-10 col-11 mt-3">
+          <img src="./img/blog--1.jpg" alt="" class="img-fluid">
+          <div class="artical-detail">
+            <h4 class="artical-tital">As a veterinarian and lover of animal.</h4>
+            <p class="artical-date">JANUARY 08,2023</p>
+            <p class="artical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus recusandae architecto alias aspernatur. Ab, eaque.</p>
+            <p><a href="#" class="artical-link">Read More+</a></p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-10 col-11 mt-3">
+          <img src="./img/blog-2.jpg" alt="" class="img-fluid">
+          <div class="artical-detail">
+            <h4 class="artical-tital">As a veterinarian and lover of animal.</h4>
+            <p class="artical-date">JANUARY 08,2023</p>
+            <p class="artical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus recusandae architecto alias aspernatur. Ab, eaque.</p>
+            <p><a href="#" class="artical-link">Read More+</a></p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-10 col-11 mt-3">
+          <img src="./img/blog--3.jpg" alt="" class="img-fluid">
+          <div class="artical-detail">
+            <h4 class="artical-tital">As a veterinarian and lover of animal.</h4>
+            <p class="artical-date">JANUARY 08,2023</p>
+            <p class="artical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus recusandae architecto alias aspernatur. Ab, eaque.</p>
+            <p><a href="#" class="artical-link">Read More+</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="row justify-content-center text-white mt-5 pt-5 pb-5" id="footer">
+        <div class="col-md-3 col-11">
+          <h3>About</h3>
+          <a href="#">History</a><br>
+          <a href="#">Our Team</a><br>
+          <a href="#">Brand Guideline</a><br>
+          <a href="#">Term & Condition</a><br>
+          <a href="#">Privacy Policy</a><br>
+        </div>
+        <div class="col-md-2 col-11">
+          <h3>Services</h3>
+          <a href="#">How to order</a><br>
+          <a href="#">Our Product</a><br>
+          <a href="#">Order Status</a><br>
+          <a href="#">Promo</a><br>
+          <a href="#">Payment Method</a><br>
+        </div>
+        <div class="col-md-4 col-11 text-end">
+          <h3>Tital Here</h3>
+          <p>Send Your Queary</p>
+          <form action="" id="footer-form">
+            <input type="text" placeholder="Enter Message..." id="footer-search-box">
+            <button type="submit" id="footer-search-submit"><i class="bi bi-send-fill"></i></button>
+          </form>
+          <a href="#"><i class="bi bi-whatsapp social-icon"></i></a>
+          <a href="#"><i class="bi bi-instagram social-icon"></i></a>
+          <a href="#"><i class="bi bi-facebook social-icon"></i></a>
+          <a href="#"><i class="bi bi-twitter social-icon"></i></a>
+        </div>
+      </div>
+
+
+    <!-- colse container-fluid  -->
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
